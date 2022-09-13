@@ -24,7 +24,7 @@
 
 ![Consulta 3](img/4.png "Consulta 3")
 
-4.Si se desea obtener los rgistros cuyo sus apellidos sean Vanegas o Cetina, se debe utilizar el operador IN que especifica los registros que se quieren visualizar en la tabla
+4. Si se desea obtener los rgistros cuyo sus apellidos sean Vanegas o Cetina, se debe utilizar el operador IN que especifica los registros que se quieren visualizar en la tabla
 
 `select apellidos from Usuario where apellidos IN('Vanegas', 'Cetina')`
 
