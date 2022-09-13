@@ -6,6 +6,8 @@
 
 ![tabla usuario](img/captura.png "Tabla usuario")
 
+## COMANDO SELECT
+
 1. Para visualizar toda la información que contiene la tabla `usuario` se puede incluir con la instrucción SELECT el carcter '*' o cada uno de los campos de la tabla 
 
 `select * from usuario`
@@ -60,3 +62,9 @@ O se puede utilizar el operador OR
 `select * from Usuario where nombre LIKE '___a%'`
 
 ![Consulta 8](img/9.png "Consulta 8")
+
+9. Si se desea obtener los registros cuya identificación este entre el intervalo 110 y 150, se debe utilizar la clausula BETWEEN, que sirve para especificr un intervalo de valores
+
+`select * from Usuario where identificacion BETWEEN '110' and '150'`
+
+![Consulta 9](img/10.png "Consulta 9")
