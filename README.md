@@ -15,3 +15,5 @@
 2. Visualzar solamente la identificación del usuario
 
 `select identificación from usuario`
+
+![Consulta 2](img/3.png "Consulta 2")
