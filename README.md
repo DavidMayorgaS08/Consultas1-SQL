@@ -2,6 +2,8 @@
 
 #CONSULTA SQL
 
+![tabla usuario](img/captura.png "Tabla usuario")
+
 1. Para visualizar toda la información que contiene la tabla `usuario` se puede incluir con la instrucción SELECT el carcter '*' o cada uno de los campos de la tabla 
 
 `select * from usuario`
