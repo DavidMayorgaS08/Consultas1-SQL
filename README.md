@@ -78,3 +78,11 @@ O se puede utilizar el operador OR
 ![Consulta 10](img/11.png "Consulta 10")
 
 ![Consulta 10](img/11_1.png "Consulta 10")
+
+11. Para actualizar la ciudad de nacimiento de Cristian Vanegas cuya identificación es 114
+
+`update Usuario set ciudad_nac = 'Manisalez' where identificacion='114'`
+
+![Consulta 11](img/12.png "Consulta 11")
+
+![Consulta 11](img/12_1.png "Consulta 11")
