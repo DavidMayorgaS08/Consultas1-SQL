@@ -35,3 +35,9 @@ O se puede utilizar el operador OR
 `select apellido from Usuario where apellido='Vanegas' or apellido='Cetina'`
 
 ![Consulta 4](img/5_1.png "Consulta 4")
+
+5. Si se desea obtener los registros cuya identificación sea menor a 110 y la ciudad sea Cali se debe utilizar el operador AND.
+
+`select * from Usuario where identificacion<'150' and ciudad_nac='Cali'`
+
+![Consulta 5](img/6.png "Consulta 5")
