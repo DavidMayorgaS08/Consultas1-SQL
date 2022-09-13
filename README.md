@@ -68,3 +68,13 @@ O se puede utilizar el operador OR
 `select * from Usuario where identificacion BETWEEN '110' and '150'`
 
 ![Consulta 9](img/10.png "Consulta 9")
+
+## COMANDO DELETE
+
+10. Para eleminar solamente los registros cuya identificación sea mayor de 130 
+
+`delete from Usuario where identficacion>'130'`
+
+![Consulta 10](img/11.png "Consulta 10")
+
+![Consulta 10](img/11_1.png "Consulta 10")
