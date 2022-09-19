@@ -86,3 +86,7 @@ O se puede utilizar el operador OR
 ![Consulta 11](img/12.png "Consulta 11")
 
 ![Consulta 11](img/12_1.png "Consulta 11")
+
+## Tabla pedidos
+
+![Tabla pedidos](img/13.png "Tabla pedidos")
