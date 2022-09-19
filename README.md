@@ -90,3 +90,9 @@ O se puede utilizar el operador OR
 ## Tabla pedidos
 
 ![Tabla pedidos](img/13.png "Tabla pedidos")
+
+12. Para visualizar los campos identificación, nombre, appelidos, de la tabla usuario y nropedido,fechacomprar,fechavencimiento  observación de la tabla pedidos se debe realizar la siguiente intrución sql:
+
+`select usuario.identificacion, usuario.nombre, usuario.apellido, pedidos.Nropedido, pedidos.fechacompra, pedidos.fechavence, pedidos.observacion from usuario inner join pedidos on usuario.identificacion = pedidos.identifiacion`
+
+![Consulta 12](img/14.png "Consulta 12")
