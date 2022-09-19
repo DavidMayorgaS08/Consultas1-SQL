@@ -96,3 +96,9 @@ O se puede utilizar el operador OR
 `select usuario.identificacion, usuario.nombre, usuario.apellido, pedidos.Nropedido, pedidos.fechacompra, pedidos.fechavence, pedidos.observacion from usuario inner join pedidos on usuario.identificacion = pedidos.identifiacion`
 
 ![Consulta 12](img/14.png "Consulta 12")
+
+13. Para visualizar todos los capos de las tablas usuarios y pedidos donde identificacion sea mayor que 100, se debe reaizar la sigueiente instrucción:
+
+`select usuario.*, pedidos.* from usuarios inner join pedidos on usuarios identificacion = pedidos.identificacion where usurio.identificacion > 100`
+
+![Consulta 13](img/15.png "Consulta 13")
